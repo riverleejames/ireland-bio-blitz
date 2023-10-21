@@ -61,7 +61,8 @@ def convert_all_tsv_to_csv(directory_path):
     for filename in os.listdir(directory_path):
         if filename.endswith(".tsv"):
             input_path = os.path.join(directory_path, filename)
-            output_path = os.path.join(directory_path, filename.replace(".tsv", ".csv"))
+            output_path = os.path.join(
+                directory_path, filename.replace(".tsv", ".csv"))
             tsv_to_csv(input_path, output_path)
             print(f"Converted {input_path} to {output_path}")
 
@@ -69,7 +70,7 @@ def convert_all_tsv_to_csv(directory_path):
 def main():
     """
     Main execution function for the script.
-    
+
     Prompts the user for a directory path and then converts all TSV files within that directory 
     to CSV format.
     """
