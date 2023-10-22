@@ -1,4 +1,5 @@
 """
+Figure 1: Format data for bulk upload
 This script reads data from a JSON file, formats it for CouchDB bulk upload, 
 and then writes the formatted data to another JSON file.
 
