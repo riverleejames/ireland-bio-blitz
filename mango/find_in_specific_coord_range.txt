@@ -1,0 +1,46 @@
+Mango Query:(json)
+{
+    "selector": {
+       "$and": [
+          {
+             "East": {
+                "$gte": 90000,
+                "$lte": 92000
+             }
+          },
+          {
+             "North": {
+                "$gte": 57000,
+                "$lte": 58000
+             }
+          }
+       ]
+    }
+ }
+
+ Returned Example: (json)
+  {
+     "_id": "0c9a55653527e00c7936d5540a000e45",
+     "_rev": "1-ea455705dfd94806f37f3c59c53b53e3",
+     "RecordKey": "SR000511000000G5",
+     "SurveyKey": "BioBlitz2012Glengarriff",
+     "StartDate": "19/05/2012",
+     "EndDate": "19/05/2012",
+     "DateType": "D",
+     "Date": "19/05/2012",
+     "TaxonVersionKey": "NHMSYS0000530309",
+     "TaxonName": "Columba palumbus",
+     "GridReference": "V9157",
+     "East": 91500,
+     "North": 57500,
+     "Projection": "OSNI",
+     "Precision": 1000,
+     "SiteName": "Glengarriff_Esknamucky_V9157",
+     "Recorder": "Mick O'Sullivan;Sean  Bourke",
+     "ZeroAbundance": false,
+     "UnderValidation": false,
+     "Type of sighting": "Field Observation",
+     "Common name": "Common Wood Pigeon",
+     "Determiner name": "Mick O'Sullivan",
+     "Survey name": "Ireland's BioBlitz 2012 - Glengarriff Nature Reserve"
+   }
